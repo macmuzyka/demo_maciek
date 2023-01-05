@@ -44,7 +44,7 @@ class PersonView : KComposite() {
 
             button("Add person..") {
                 onLeftClick {
-                    dialog.open()
+//                    dialog.open()
                     val notification: Notification
                     if (nameField.isEmpty || ageField.isEmpty || statusField.isEmpty) {
                         notification = Notification.show("Unable to add new person, not all data has been filled!", 5000, Notification.Position.MIDDLE)
