@@ -1,4 +1,4 @@
-package com.example.demo_maciek.model
+package com.example.demo_maciek.live_coding
 
 import com.github.vokorm.KEntity
 import org.jdbi.v3.core.mapper.reflect.ColumnName

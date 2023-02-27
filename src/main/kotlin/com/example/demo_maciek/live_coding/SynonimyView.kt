@@ -1,6 +1,5 @@
-package com.example.demo_maciek.gui
+package com.example.demo_maciek.live_coding
 
-import com.example.demo_maciek.model.Synonimy
 import com.github.mvysny.karibudsl.v10.KComposite
 import com.github.mvysny.karibudsl.v10.button
 import com.github.mvysny.karibudsl.v10.columnFor

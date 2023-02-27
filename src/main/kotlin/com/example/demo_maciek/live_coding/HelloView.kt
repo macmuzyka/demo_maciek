@@ -1,5 +1,6 @@
-package com.example.demo_maciek.gui
+package com.example.demo_maciek.live_coding
 
+import com.example.demo_maciek.gui.GuestView
 import com.github.mvysny.karibudsl.v10.KComposite
 import com.github.mvysny.karibudsl.v10.button
 import com.github.mvysny.karibudsl.v10.h1
@@ -34,7 +35,7 @@ class HelloView : KComposite() {
                 }
             }
             routerLink(text = "Synonimy", viewType = SynonimyView::class)
-            routerLink(text = "Person", viewType = PersonView::class)
+            routerLink(text = "Person", viewType = GuestView::class)
         }
     }
 }
